@@ -17,7 +17,7 @@ describe "Static pages" do
   describe "Help page" do
     it "should have the content 'Help page'" do
       visit '/static_pages/help'
-      expect(page).to have_content('Help Page')
+      expect(page).to have_content('Help')
     end
 
     it "should have the title 'Help'" do
