@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
+#gem 'sqlite3'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -39,6 +39,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'guard-rspec'
+
+  gem 'spork-rails'
+  gem 'guard-spork'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -47,13 +50,5 @@ group :development, :test do
 
   # OS X: раскомментируйте эти строки.
   gem 'growl', '1.0.3'
-
-  # Linux: раскомментируйте эти строки.
-  # gem 'libnotify', '0.8.0'
-
-  # Windows: раскомментируйте эти строки.
-  # gem 'rb-notifu', '0.0.4'
-  # gem 'win32console', '1.3.2'
-  # gem 'wdm', '0.1.0'
 end
 
