@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - sample_app_dev@localhost" uuid="8ecc1665-2a4c-4679-95e9-686ec1de0316">
+      <secret-storage>master_key</secret-storage>
+      <user-name>timofiybilyi</user-name>
+      <schema-pattern>*.pg_catalog *.public</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+    <data-source name="Rails sample_app: development" uuid="806fd56e-7c32-4a11-aed0-e5677840d346">
+      <user-name>timofiybilyi</user-name>
+      <user-password>dffbdfebdff0dfdddfd9dfd2dff5df9bdf93df99</user-password>
+      <schema-pattern>sample_app_dev.pg_catalog sample_app_dev.public</schema-pattern>
+      <default-schemas>sample_app_dev.pg_catalog sample_app_dev.public</default-schemas>
+    </data-source>
+    <data-source name="Rails sample_app: test" uuid="b36cbc0f-6b0a-428f-8d2d-58c5a29a69b0">
+      <user-name>timofiybilyi</user-name>
+      <user-password>dffbdfebdff0dfdddfd9dfd2dff5df9bdf93df99</user-password>
+      <schema-pattern>sample_app_dev.pg_catalog sample_app_dev.public</schema-pattern>
+      <default-schemas>sample_app_dev.pg_catalog sample_app_dev.public</default-schemas>
+    </data-source>
+    <data-source name="Rails sample_app: production" uuid="afd4742f-c39b-4305-a4fc-86395e701d21">
+      <user-name>timofiybilyi</user-name>
+      <user-password>dffbdfebdff0dfdddfd9dfd2dff5df9bdf93df99</user-password>
+      <schema-pattern>sample_app_dev.pg_catalog sample_app_dev.public</schema-pattern>
+      <default-schemas>sample_app_dev.pg_catalog sample_app_dev.public</default-schemas>
+    </data-source>
+  </component>
+</project>
