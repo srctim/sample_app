@@ -1,14 +1,14 @@
 require 'rails_helper'
 
 describe "Static pages" do
-
+  subject {page}
   let(:base_title) { "Ruby on Rails Tutorial Sample App" }
 
   describe "Home page" do
     before {visit root_path}
 
     it "should have the content 'Sample App'" do
-      expect(page).to have_content('Sample App')
+       have_content('Sample App')
     end
 
     it "should have the base title" do
