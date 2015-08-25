@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   # about_url  -> 'http://localhost:3000/about'
 
   root 'static_pages#home'
-  #match 'root',to: 'static_pages#home', via: 'get'
+  match 'signup',to: 'users#new', via: 'get'
   match 'about',to: 'static_pages#about', via: 'get'
   match 'help',to: 'static_pages#help', via: 'get'
   match 'contact',to: 'static_pages#contact', via: 'get'
