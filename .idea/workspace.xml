@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cafd8f26-24ee-428a-af1e-197190212b3a" name="Default" comment="add validation for case sensitive">
+    <list default="true" id="cafd8f26-24ee-428a-af1e-197190212b3a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -536,12 +537,6 @@
       <option name="number" value="Default" />
       <updated>1440244379262</updated>
     </task>
-    <task id="LOCAL-00005" summary="add green test [about page]">
-      <created>1440267329497</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1440267329497</updated>
-    </task>
     <task id="LOCAL-00006" summary="add red tests for title (home, help, about)">
       <created>1440268042574</created>
       <option name="number" value="00006" />
@@ -830,7 +825,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440589925886</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add index to users email">
+      <created>1440590040821</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1440590040821</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -880,7 +881,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add partial layout for footer" />
     <MESSAGE value="add scss for footer" />
     <MESSAGE value="change css to scss" />
     <MESSAGE value="add routes for pages: about, help, /, contact + tests" />
@@ -905,7 +905,8 @@
     <MESSAGE value="add test for dublicate emails" />
     <MESSAGE value="add validation for unique email" />
     <MESSAGE value="add validation for case sensitive" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validation for case sensitive" />
+    <MESSAGE value="add index to users email" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index to users email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
