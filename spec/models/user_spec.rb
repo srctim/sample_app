@@ -8,7 +8,7 @@ describe User do
 
   it { should respond_to(:name) }
   it { should respond_to(:email) }
-
+  it { should respond_to(:password_digest) }
   it { should be_valid }
 
   describe "when name is not present" do
@@ -56,5 +56,6 @@ describe User do
     end
 
     it { should_not be_valid }
-    end
+  end
+
 end
