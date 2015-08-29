@@ -17,20 +17,3 @@ def getQht(latitude, longitude)
   qth += str_chr_lo[((lat % 1) * (60 / 2.5)).floor] # 6 th digit: 2.5 min latitude slot.
 end
 getQht(51.5085300,-0.1257400)
-
-
-require 'tk'
-
-$resultsVar = TkVariable.new
-root = TkRoot.new
-root.title = "Window"
-
-image = TkPhotoImage.new
-image.file = "/Users/timofiybilyi/Downloads/world-map.png"
-
-label = TkLabel.new(root)
-label.image = image
-label.place('height' => image.height,
-            'width' => image.width,
-            'x' => 10, 'y' => 10)
-Tk.mainloop
