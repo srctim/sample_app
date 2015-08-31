@@ -21,7 +21,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.coverage" NAME="Development: sample_app Coverage Results" MODIFIED="1440246237823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
-    <SUITE FILE_PATH="coverage/sample_app@spec__sample_app.coverage" NAME="spec: sample_app Coverage Results" MODIFIED="1441022812002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@spec__sample_app.coverage" NAME="spec: sample_app Coverage Results" MODIFIED="1441022938141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@Production__sample_app.coverage" NAME="Production: sample_app Coverage Results" MODIFIED="1440244565631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@example_user.coverage" NAME="example_user Coverage Results" MODIFIED="1440337015398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
@@ -69,8 +69,8 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29085872">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.41551247">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -626,12 +626,6 @@
       <option name="number" value="Default" />
       <updated>1440244379262</updated>
     </task>
-    <task id="LOCAL-00035" summary="refactoring tests (compact style)">
-      <created>1440515300170</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1440515300170</updated>
-    </task>
     <task id="LOCAL-00036" summary="add controller Users (rails generate controller Users new --no-test-framework)">
       <created>1440525909675</created>
       <option name="number" value="00036" />
@@ -920,7 +914,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441022785371</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="add routes for sessions">
+      <created>1441022852681</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1441022852681</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TodoView">
@@ -934,7 +934,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25040388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11966988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -970,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add bcrypt gem for password" />
     <MESSAGE value="add field password_digest to table users (rails generate migration add_password_digest_to_users password_digest:string)" />
     <MESSAGE value="add tests for password and password confirmation" />
     <MESSAGE value="add password and password confirmation in User model + validation" />
@@ -995,7 +994,8 @@
     <MESSAGE value="git commit -a -m &quot;Add SSL in production&quot;" />
     <MESSAGE value="add test stub for auth and create session controller" />
     <MESSAGE value="add test for Auth (signin page - red)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for Auth (signin page - red)" />
+    <MESSAGE value="add routes for sessions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add routes for sessions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1367,8 +1367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29085872">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.41551247">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
