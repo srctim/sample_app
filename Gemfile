@@ -51,7 +51,7 @@ group :development, :test do
 
   gem 'factory_girl_rails'
   #for homework
-  
+
   # OS X: раскомментируйте эти строки.
   gem 'growl', '1.0.3'
 end
