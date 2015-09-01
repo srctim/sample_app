@@ -116,4 +116,6 @@ describe User do
   #   #it { expect(@user.remember_token).not_to be_blank }
   #   its(:remember_token) { should_not be_blank }
   # end
+
+
 end
