@@ -29,6 +29,7 @@ describe "User pages" do
         expect { click_button submit }.not_to change(User, :count)
       end
     end
+
     #
     # describe "after saving the user" do
     #   before { click_button submit }
