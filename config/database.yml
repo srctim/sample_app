@@ -7,7 +7,7 @@ development:
   password: QAZwsx_193
   host: localhost
 
-test:
+test: &test
     adapter: postgresql
     encoding: unicode
     database: sample_app_dev
@@ -24,3 +24,6 @@ production:
     username: timofiybilyi
     password: QAZwsx_193
     host: localhost
+
+cucumber:
+  <<: *test
